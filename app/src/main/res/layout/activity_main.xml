@@ -11,6 +11,12 @@
     tools:context="activity.viewdome.com.viewdome.MainActivity">
 
     <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello World!" />
+
+    <TextView
+        android:id="@+id/view_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
