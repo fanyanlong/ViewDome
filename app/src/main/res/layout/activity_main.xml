@@ -20,9 +20,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
-    <TextView
+
+    <Button
+        android:id="@+id/view_bu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_bu_text"
+        android:onClick="onClick"
+        />
+    <activity.viewdome.com.viewdome.ScroView
         android:id="@+id/view_tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerVertical="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/view_bu"
+        />
 </RelativeLayout>
